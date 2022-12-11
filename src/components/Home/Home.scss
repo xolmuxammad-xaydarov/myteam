@@ -1,0 +1,42 @@
+.header{
+  padding: 50px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .stick{
+    height: 17px;
+    width: 1px;
+    background-color:black;
+    margin: 0 0 0 48px;
+  }
+  .df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+    li{
+      margin-left: 64px;
+    }
+  }
+}
+.hr{
+  width: 100%;
+  height: 0.3px;
+  background-color: black;
+  margin-top: 17px;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  border-bottom:2px solid;
+  transition: 0.7s;
+  padding: 0 0 17px;
+}

@@ -1,0 +1,52 @@
+.one_card{
+  margin: 128px 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .item__price{
+    margin:23px 0 70px 0;
+    color: #A18A68;
+  }
+}
+.flex{
+  display: flex;
+
+  &__img{
+    div{
+      margin-bottom: 40px;
+    }
+  }
+  &__big-item{
+    margin: 0 0 0 40px;
+  }
+}
+
+.about__item{
+  max-width: 484px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 22px 0 48px 0;
+}
+.btns__block{
+  display: flex;
+  justify-content: space-around;
+  background-color: #EFEFEF;
+  font-size: 16px;
+  align-items: center;
+  width: 103px;
+  height: 53px;
+  .btns__style{
+    cursor: pointer;
+    border: none;
+  }
+}
+.btns{
+  display: flex;
+}
+.card__add{
+  margin-left:23px ;
+  padding: 17px 127px;
+  background-color: #fff;
+}
